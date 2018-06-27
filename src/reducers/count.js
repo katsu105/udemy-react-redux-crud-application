@@ -1,6 +1,6 @@
-import { INCREMRNT, DECREMENT } from '../actions'
+import { INCREMENT, DECREMENT } from '../actions'
 
-const initalState = { value: 0 }
+const initialState = { value: 0 }
 
 export default (state = initialState, action) => {
  switch(action.type){
